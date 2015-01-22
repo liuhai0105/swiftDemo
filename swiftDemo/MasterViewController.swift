@@ -1,10 +1,6 @@
 //
 //  MasterViewController.swift
 //  swiftDemo
-//
-//  Created by 刘海 on 14/6/6.
-//  Copyright (c) 2014年 Hai. All rights reserved.
-//
 
 import UIKit
 import CoreData
@@ -13,7 +9,20 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 
     var managedObjectContext: NSManagedObjectContext? = nil
 
-
+    var iaa:Int = 2
+    func loadData()
+    {
+        var ibb = iaa
+        NSLog("hahahahhahah");
+    }
+    
+    init(coder aDecoder: NSCoder!)
+    {
+        super.init(coder: aDecoder)
+        
+        loadData()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -25,6 +34,9 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
+        
+        atest()
+        loadData()
     }
 
     override func didReceiveMemoryWarning() {

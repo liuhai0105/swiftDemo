@@ -14,6 +14,8 @@
 		C991BD5319420F07005B3C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C991BD5119420F07005B3C25 /* Main.storyboard */; };
 		C991BD5519420F07005B3C25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C991BD5419420F07005B3C25 /* Images.xcassets */; };
 		C991BD6119420F07005B3C25 /* swiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C991BD6019420F07005B3C25 /* swiftDemoTests.swift */; };
+		C9EC26221952DA2D00E093B1 /* b.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EC26211952DA2D00E093B1 /* b.swift */; };
+		C9EC26241952DBC500E093B1 /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EC26231952DBC500E093B1 /* a.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		C991BD5A19420F07005B3C25 /* swiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C991BD5F19420F07005B3C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C991BD6019420F07005B3C25 /* swiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftDemoTests.swift; sourceTree = "<group>"; };
+		C9C1722119483E8F0044E90E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		C9EC26211952DA2D00E093B1 /* b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = b.swift; sourceTree = "<group>"; };
+		C9EC26231952DBC500E093B1 /* a.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = a.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				C991BD5419420F07005B3C25 /* Images.xcassets */,
 				C991BD4A19420F06005B3C25 /* swiftDemo.xcdatamodeld */,
 				C991BD4619420F06005B3C25 /* Supporting Files */,
+				C9C1722119483E8F0044E90E /* MyPlayground.playground */,
+				C9EC26211952DA2D00E093B1 /* b.swift */,
+				C9EC26231952DBC500E093B1 /* a.swift */,
 			);
 			path = swiftDemo;
 			sourceTree = "<group>";
@@ -217,7 +225,9 @@
 				C991BD4C19420F06005B3C25 /* swiftDemo.xcdatamodeld in Sources */,
 				C991BD4919420F06005B3C25 /* AppDelegate.swift in Sources */,
 				C991BD4E19420F07005B3C25 /* MasterViewController.swift in Sources */,
+				C9EC26241952DBC500E093B1 /* a.swift in Sources */,
 				C991BD5019420F07005B3C25 /* DetailViewController.swift in Sources */,
+				C9EC26221952DA2D00E093B1 /* b.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = swiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -345,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = swiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +417,7 @@
 				C991BD6619420F07005B3C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C991BD6719420F07005B3C25 /* Build configuration list for PBXNativeTarget "swiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				C991BD6919420F07005B3C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
